@@ -319,10 +319,10 @@ iii) $(d-1)$ diagonal Gell-Mann matrices
 
 \section{Experiment}
 \noindent The system of interest is a two-level system ($S$) whose computational bases are $\{|i\rangle_S\}$, where $i \in \{0,1\}$. Like any other quantum systems, this system also suffers from probabilistic and irreversible environmental decoherence or, for this particular model, amplitude-damping decoherence. We can model state-dependent coupling of the system S to the environment ($E$),
-\begin{eqnarray}
-|0\rangle_S \otimes |0\rangle_E  & \rightarrow & |0\rangle_S \otimes |0\rangle_E \text{,} \\
-|1\rangle_S \otimes |0\rangle_E  & \rightarrow & \sqrt{\bar{D}} |1\rangle_S \otimes |0\rangle_E + \sqrt{D} |0\rangle_S \otimes |1\rangle_E \text{,}
-\end{eqnarray}
+\begin{align*}
+|0\rangle_S \otimes |0\rangle_E  & \rightarrow  |0\rangle_S \otimes |0\rangle_E \text{,} \\
+|1\rangle_S \otimes |0\rangle_E  & \rightarrow  \sqrt{\bar{D}} |1\rangle_S \otimes |0\rangle_E + \sqrt{D} |0\rangle_S \otimes |1\rangle_E \text{,}
+\end{align*}
 \noindent where $0 \le D \le 1$ is the magnitude of the environmental decoherence and $\bar{D}=1-D$. Not only relevant to this particular case, amplitude-damping decoherence is a widely used model for various qubit systems, including examples such as zero-temperature energy relaxation for the superconducting qubit, photon loss for the vacuum single-photon qubit, and spontaneous decay for the atomic energy level qubit.
 
 The experiment considers a quantum communication scenario depicted in the following, as shown in fig. $\ref{fig:scheme}$. Alice prepares a two-qubit correlated state $|\Phi\rangle$,

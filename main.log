@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 FEB 2015 11:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 FEB 2015 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,7 +565,7 @@ Overfull \hbox (5.20032pt too wide) in paragraph at lines 372--372
 [] 
  []
 
-<concd.png, id=140, 792.9625pt x 452.69125pt>
+<concd.png, id=139, 792.9625pt x 452.69125pt>
 File: concd.png Graphic file (type png)
  <use concd.png>
 Package pdftex.def Info: concd.png used on input line 380.
@@ -575,7 +575,7 @@ Overfull \hbox (3.9028pt too wide) in paragraph at lines 379--384
  [][] 
  []
 
-<concw.png, id=141, 786.94pt x 449.68pt>
+<concw.png, id=140, 786.94pt x 449.68pt>
 File: concw.png Graphic file (type png)
  <use concw.png>
 Package pdftex.def Info: concw.png used on input line 386.
@@ -585,55 +585,55 @@ Overfull \hbox (3.9028pt too wide) in paragraph at lines 385--390
  [][] 
  []
 
-[5 <./concd.png> <./concw.png>] <sq2D.png, id=157, 465.74pt x 350.30875pt>
+[5 <./concd.png> <./concw.png>] <sq2D.png, id=156, 465.74pt x 350.30875pt>
 File: sq2D.png Graphic file (type png)
 
 <use sq2D.png>
 Package pdftex.def Info: sq2D.png used on input line 408.
 (pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
- <sq2W.png, id=158, 465.74pt x 350.30875pt>
+ <sq2W.png, id=157, 465.74pt x 350.30875pt>
 File: sq2W.png Graphic file (type png)
  <use sq2W.png>
 Package pdftex.def Info: sq2W.png used on input line 413.
 (pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
 
-<041D.png, id=159, 465.74pt x 350.30875pt>
+<041D.png, id=158, 465.74pt x 350.30875pt>
 File: 041D.png Graphic file (type png)
  <use 041D.png>
 Package pdftex.def Info: 041D.png used on input line 419.
 (pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
 
-<041W.png, id=160, 465.74pt x 350.30875pt>
+<041W.png, id=159, 465.74pt x 350.30875pt>
 File: 041W.png Graphic file (type png)
  <use 041W.png>
 Package pdftex.def Info: 041W.png used on input line 424.
 (pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
 
-<sq2DG.png, id=161, 459.7175pt x 338.26375pt>
+<sq2DG.png, id=160, 459.7175pt x 338.26375pt>
 File: sq2DG.png Graphic file (type png)
  <use sq2DG.png>
 Package pdftex.def Info: sq2DG.png used on input line 434.
 (pdftex.def)             Requested size: 117.29782pt x 86.30515pt.
 
-<sq2WG.png, id=162, 459.7175pt x 337.26pt>
+<sq2WG.png, id=161, 459.7175pt x 337.26pt>
 File: sq2WG.png Graphic file (type png)
  <use sq2WG.png>
 Package pdftex.def Info: sq2WG.png used on input line 439.
 (pdftex.def)             Requested size: 117.29782pt x 86.04904pt.
 
-<041DG.png, id=163, 459.7175pt x 338.26375pt>
+<041DG.png, id=162, 459.7175pt x 338.26375pt>
 File: 041DG.png Graphic file (type png)
  <use 041DG.png>
 Package pdftex.def Info: 041DG.png used on input line 445.
 (pdftex.def)             Requested size: 117.29782pt x 86.30515pt.
 
-<041WG.png, id=164, 459.7175pt x 337.26pt>
+<041WG.png, id=163, 459.7175pt x 337.26pt>
 File: 041WG.png Graphic file (type png)
  <use 041WG.png>
 Package pdftex.def Info: 041WG.png used on input line 450.
 (pdftex.def)             Requested size: 117.29782pt x 86.04904pt.
 
-<DD.png, id=165, 535.7616pt x 347.3778pt>
+<DD.png, id=164, 535.7616pt x 347.3778pt>
 File: DD.png Graphic file (type png)
  <use DD.png>
 Package pdftex.def Info: DD.png used on input line 461.
@@ -643,7 +643,7 @@ Overfull \hbox (3.9028pt too wide) in paragraph at lines 460--465
  [][] 
  []
 
-<Dp.png, id=166, 542.9886pt x 350.2686pt>
+<Dp.png, id=165, 542.9886pt x 350.2686pt>
 File: Dp.png Graphic file (type png)
  <use Dp.png>
 Package pdftex.def Info: Dp.png used on input line 467.
@@ -653,7 +653,7 @@ Overfull \hbox (3.9028pt too wide) in paragraph at lines 466--471
  [][] 
  []
 
-<DGD.png, id=167, 534.798pt x 346.4142pt>
+<DGD.png, id=166, 534.798pt x 346.4142pt>
 File: DGD.png Graphic file (type png)
  <use DGD.png>
 Package pdftex.def Info: DGD.png used on input line 477.
@@ -663,7 +663,7 @@ Overfull \hbox (3.9028pt too wide) in paragraph at lines 476--481
  [][] 
  []
 
-<DGp.png, id=168, 535.7616pt x 353.1594pt>
+<DGp.png, id=167, 535.7616pt x 353.1594pt>
 File: DGp.png Graphic file (type png)
  <use DGp.png>
 Package pdftex.def Info: DGp.png used on input line 483.
@@ -695,8 +695,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9541 strings out of 493315
- 137816 string characters out of 6137904
+ 9540 strings out of 493315
+ 137803 string characters out of 6137904
  344809 words of memory out of 5000000
  12811 multiletter control sequences out of 15000+600000
  15038 words of font info for 55 fonts, out of 8000000 for 9000
@@ -725,10 +725,10 @@ ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (8 pages, 1443824 bytes).
+Output written on main.pdf (8 pages, 1443821 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
