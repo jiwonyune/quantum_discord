@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 FEB 2015 11:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  4 MAR 2015 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,17 +481,21 @@ Class revtex4-1 Info: Overriding \@LN@LLerror on input line 44.
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 99.
+
 <d.png, id=56, 623.32875pt x 494.84875pt>
 File: d.png Graphic file (type png)
  <use d.png>
-Package pdftex.def Info: d.png used on input line 112.
+Package pdftex.def Info: d.png used on input line 114.
 (pdftex.def)             Requested size: 229.49844pt x 182.19263pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 113.
+LaTeX Font Info:    Try loading font information for U+msa on input line 115.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 113.
+LaTeX Font Info:    Try loading font information for U+msb on input line 115.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -499,209 +503,202 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <dg.png, id=57, 604.2575pt x 481.8pt>
 File: dg.png Graphic file (type png)
  <use dg.png>
-Package pdftex.def Info: dg.png used on input line 120.
+Package pdftex.def Info: dg.png used on input line 122.
 (pdftex.def)             Requested size: 229.49844pt x 182.99033pt.
- [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./d.
-png (PNG copy)> <./dg.png (PNG copy)>] [2]
+ [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 271.
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 156.
+
+[2 <./d.png (PNG copy)> <./dg.png (PNG copy)>]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 273.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 271.
+LaTeX Font Warning: Command \small invalid in math mode on input line 273.
 
-<expd.png, id=99, 379.4175pt x 414.54875pt>
+<expd.png, id=97, 540.0175pt x 688.5725pt>
 File: expd.png Graphic file (type png)
  <use expd.png>
-Package pdftex.def Info: expd.png used on input line 277.
-(pdftex.def)             Requested size: 117.29782pt x 128.15454pt.
+Package pdftex.def Info: expd.png used on input line 279.
+(pdftex.def)             Requested size: 117.29782pt x 149.56367pt.
 
-<expw.png, id=101, 383.4325pt x 414.54875pt>
+<expw.png, id=99, 540.0175pt x 688.5725pt>
 File: expw.png Graphic file (type png)
  <use expw.png>
-Package pdftex.def Info: expw.png used on input line 282.
-(pdftex.def)             Requested size: 117.29782pt x 126.81354pt.
+Package pdftex.def Info: expw.png used on input line 284.
+(pdftex.def)             Requested size: 117.29782pt x 149.56367pt.
+ [3]
 
-Overfull \hbox (11.95383pt too wide) detected at line 303
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 295.
+
+
+Overfull \hbox (11.95383pt too wide) detected at line 305
 []\OT1/cmr/m/n/10 ^^C[] = [] [] \OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1 \OMS/cmsy/
 m/n/10 ^^T \OML/cmm/m/it/10 l \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 d \OMS/cmsy
 /m/n/10 ^^@ \OT1/cmr/m/n/10 1[]
  []
 
-[3]
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 303.
-
-<setup.png, id=119, 825.0825pt x 572.1375pt>
-File: setup.png Graphic file (type png)
- <use setup.png>
-Package pdftex.def Info: setup.png used on input line 316.
-(pdftex.def)             Requested size: 249.9028pt x 173.28383pt.
-
-Overfull \hbox (3.9028pt too wide) in paragraph at lines 316--317
- [][] 
- []
-
-[4 <./expd.png> <./expw.png> <./setup.png>]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 340.
+LaTeX Font Warning: Command \small invalid in math mode on input line 336.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 340.
+LaTeX Font Warning: Command \small invalid in math mode on input line 336.
 
 
-Overfull \hbox (15.12173pt too wide) in paragraph at lines 340--340
+Overfull \hbox (15.12173pt too wide) in paragraph at lines 336--336
 [] 
  []
 
+[4 <./expd.png> <./expw.png>]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 372.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 372.
+LaTeX Font Warning: Command \small invalid in math mode on input line 368.
 
 
-Overfull \hbox (5.20032pt too wide) in paragraph at lines 372--372
+LaTeX Font Warning: Command \small invalid in math mode on input line 368.
+
+
+Overfull \hbox (5.20032pt too wide) in paragraph at lines 368--368
 [] 
  []
 
-<concd.png, id=139, 792.9625pt x 452.69125pt>
-File: concd.png Graphic file (type png)
- <use concd.png>
-Package pdftex.def Info: concd.png used on input line 380.
-(pdftex.def)             Requested size: 249.9028pt x 142.66066pt.
+<concd.pdf, id=136, 518.93875pt x 353.32pt>
+File: concd.pdf Graphic file (type pdf)
+ <use concd.pdf>
+Package pdftex.def Info: concd.pdf used on input line 376.
+(pdftex.def)             Requested size: 249.9028pt x 170.14696pt.
 
-Overfull \hbox (3.9028pt too wide) in paragraph at lines 379--384
+Overfull \hbox (3.9028pt too wide) in paragraph at lines 375--380
  [][] 
  []
 
-<concw.png, id=140, 786.94pt x 449.68pt>
-File: concw.png Graphic file (type png)
- <use concw.png>
-Package pdftex.def Info: concw.png used on input line 386.
-(pdftex.def)             Requested size: 249.9028pt x 142.79582pt.
+<concw.pdf, id=137, 518.93875pt x 353.32pt>
+File: concw.pdf Graphic file (type pdf)
+ <use concw.pdf>
+Package pdftex.def Info: concw.pdf used on input line 382.
+(pdftex.def)             Requested size: 249.9028pt x 170.14696pt.
 
-Overfull \hbox (3.9028pt too wide) in paragraph at lines 385--390
+Overfull \hbox (3.9028pt too wide) in paragraph at lines 381--386
  [][] 
  []
 
-[5 <./concd.png> <./concw.png>] <sq2D.png, id=156, 465.74pt x 350.30875pt>
-File: sq2D.png Graphic file (type png)
+[5 <./concd.pdf> <./concw.pdf>] <sq2D.pdf, id=185, 361.35pt x 274.02374pt>
+File: sq2D.pdf Graphic file (type pdf)
 
-<use sq2D.png>
-Package pdftex.def Info: sq2D.png used on input line 408.
-(pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
- <sq2W.png, id=157, 465.74pt x 350.30875pt>
-File: sq2W.png Graphic file (type png)
- <use sq2W.png>
-Package pdftex.def Info: sq2W.png used on input line 413.
-(pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
+<use sq2D.pdf>
+Package pdftex.def Info: sq2D.pdf used on input line 404.
+(pdftex.def)             Requested size: 117.29782pt x 88.95212pt.
+ <sq2W.pdf, id=186, 361.35pt x 273.02pt>
+File: sq2W.pdf Graphic file (type pdf)
+ <use sq2W.pdf>
+Package pdftex.def Info: sq2W.pdf used on input line 409.
+(pdftex.def)             Requested size: 117.29782pt x 88.6263pt.
 
-<041D.png, id=158, 465.74pt x 350.30875pt>
-File: 041D.png Graphic file (type png)
- <use 041D.png>
-Package pdftex.def Info: 041D.png used on input line 419.
-(pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
+<041D.pdf, id=187, 361.35pt x 273.02pt>
+File: 041D.pdf Graphic file (type pdf)
+ <use 041D.pdf>
+Package pdftex.def Info: 041D.pdf used on input line 415.
+(pdftex.def)             Requested size: 117.29782pt x 88.6263pt.
 
-<041W.png, id=159, 465.74pt x 350.30875pt>
-File: 041W.png Graphic file (type png)
- <use 041W.png>
-Package pdftex.def Info: 041W.png used on input line 424.
-(pdftex.def)             Requested size: 117.29782pt x 88.22374pt.
+<041W.pdf, id=188, 361.35pt x 273.02pt>
+File: 041W.pdf Graphic file (type pdf)
+ <use 041W.pdf>
+Package pdftex.def Info: 041W.pdf used on input line 420.
+(pdftex.def)             Requested size: 117.29782pt x 88.6263pt.
 
-<sq2DG.png, id=160, 459.7175pt x 338.26375pt>
-File: sq2DG.png Graphic file (type png)
- <use sq2DG.png>
-Package pdftex.def Info: sq2DG.png used on input line 434.
-(pdftex.def)             Requested size: 117.29782pt x 86.30515pt.
+<sq2DG.pdf, id=189, 361.35pt x 260.975pt>
+File: sq2DG.pdf Graphic file (type pdf)
+ <use sq2DG.pdf>
+Package pdftex.def Info: sq2DG.pdf used on input line 430.
+(pdftex.def)             Requested size: 117.29782pt x 84.71631pt.
 
-<sq2WG.png, id=161, 459.7175pt x 337.26pt>
-File: sq2WG.png Graphic file (type png)
- <use sq2WG.png>
-Package pdftex.def Info: sq2WG.png used on input line 439.
-(pdftex.def)             Requested size: 117.29782pt x 86.04904pt.
+<sq2WG.pdf, id=190, 361.35pt x 260.975pt>
+File: sq2WG.pdf Graphic file (type pdf)
+ <use sq2WG.pdf>
+Package pdftex.def Info: sq2WG.pdf used on input line 435.
+(pdftex.def)             Requested size: 117.29782pt x 84.71631pt.
 
-<041DG.png, id=162, 459.7175pt x 338.26375pt>
-File: 041DG.png Graphic file (type png)
- <use 041DG.png>
-Package pdftex.def Info: 041DG.png used on input line 445.
-(pdftex.def)             Requested size: 117.29782pt x 86.30515pt.
+<041DG.pdf, id=191, 361.35pt x 260.975pt>
+File: 041DG.pdf Graphic file (type pdf)
+ <use 041DG.pdf>
+Package pdftex.def Info: 041DG.pdf used on input line 441.
+(pdftex.def)             Requested size: 117.29782pt x 84.71631pt.
 
-<041WG.png, id=163, 459.7175pt x 337.26pt>
-File: 041WG.png Graphic file (type png)
- <use 041WG.png>
-Package pdftex.def Info: 041WG.png used on input line 450.
-(pdftex.def)             Requested size: 117.29782pt x 86.04904pt.
+<041WG.pdf, id=192, 361.35pt x 260.975pt>
+File: 041WG.pdf Graphic file (type pdf)
+ <use 041WG.pdf>
+Package pdftex.def Info: 041WG.pdf used on input line 446.
+(pdftex.def)             Requested size: 117.29782pt x 84.71631pt.
 
-<DD.png, id=164, 535.7616pt x 347.3778pt>
-File: DD.png Graphic file (type png)
- <use DD.png>
-Package pdftex.def Info: DD.png used on input line 461.
-(pdftex.def)             Requested size: 249.9028pt x 162.03256pt.
+<DD.pdf, id=193, 518.93875pt x 334.24875pt>
+File: DD.pdf Graphic file (type pdf)
+ <use DD.pdf>
+Package pdftex.def Info: DD.pdf used on input line 457.
+(pdftex.def)             Requested size: 249.9028pt x 160.96289pt.
 
-Overfull \hbox (3.9028pt too wide) in paragraph at lines 460--465
+Overfull \hbox (3.9028pt too wide) in paragraph at lines 456--461
  [][] 
  []
 
-<Dp.png, id=165, 542.9886pt x 350.2686pt>
-File: Dp.png Graphic file (type png)
- <use Dp.png>
-Package pdftex.def Info: Dp.png used on input line 467.
-(pdftex.def)             Requested size: 249.9028pt x 161.20567pt.
+<Dp.pdf, id=194, 518.93875pt x 334.24875pt>
+File: Dp.pdf Graphic file (type pdf)
+ <use Dp.pdf>
+Package pdftex.def Info: Dp.pdf used on input line 463.
+(pdftex.def)             Requested size: 249.9028pt x 160.96289pt.
 
-Overfull \hbox (3.9028pt too wide) in paragraph at lines 466--471
+Overfull \hbox (3.9028pt too wide) in paragraph at lines 462--467
  [][] 
  []
 
-<DGD.png, id=166, 534.798pt x 346.4142pt>
-File: DGD.png Graphic file (type png)
- <use DGD.png>
-Package pdftex.def Info: DGD.png used on input line 477.
-(pdftex.def)             Requested size: 249.9028pt x 161.87381pt.
+<DGD.pdf, id=195, 518.93875pt x 353.32pt>
+File: DGD.pdf Graphic file (type pdf)
+ <use DGD.pdf>
+Package pdftex.def Info: DGD.pdf used on input line 473.
+(pdftex.def)             Requested size: 249.9028pt x 170.14696pt.
 
-Overfull \hbox (3.9028pt too wide) in paragraph at lines 476--481
+Overfull \hbox (3.9028pt too wide) in paragraph at lines 472--477
  [][] 
  []
 
-<DGp.png, id=167, 535.7616pt x 353.1594pt>
-File: DGp.png Graphic file (type png)
- <use DGp.png>
-Package pdftex.def Info: DGp.png used on input line 483.
-(pdftex.def)             Requested size: 249.9028pt x 164.72934pt.
+<DGp.pdf, id=196, 518.93875pt x 353.32pt>
+File: DGp.pdf Graphic file (type pdf)
+ <use DGp.pdf>
+Package pdftex.def Info: DGp.pdf used on input line 479.
+(pdftex.def)             Requested size: 249.9028pt x 170.14696pt.
 
-Overfull \hbox (3.9028pt too wide) in paragraph at lines 482--487
+Overfull \hbox (3.9028pt too wide) in paragraph at lines 478--483
  [][] 
  []
 
-[6 <./sq2D.png (PNG copy)> <./sq2W.png (PNG copy)> <./041D.png (PNG copy)> <./0
-41W.png (PNG copy)> <./sq2DG.png (PNG copy)> <./sq2WG.png (PNG copy)> <./041DG.
-png (PNG copy)> <./041WG.png (PNG copy)>]
+[6 <./sq2D.pdf> <./sq2W.pdf> <./041D.pdf> <./041W.pdf> <./sq2DG.pdf> <./sq2WG.p
+df> <./041DG.pdf> <./041WG.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 500.
+ on input line 496.
 
-[7 <./DD.png> <./Dp.png> <./DGD.png> <./DGp.png>]
+[7 <./DD.pdf> <./Dp.pdf> <./DGD.pdf> <./DGp.pdf>]
 No file main.bbl.
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 506.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 502.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 506.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 506.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 502.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 502.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 79EC7298654DE8A17F27CBB901BD5AEC;908.
+(rerunfilecheck)             Checksum: C8402D79F217E232BE9AD8C1175EB840;970.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9540 strings out of 493315
- 137803 string characters out of 6137904
- 344809 words of memory out of 5000000
- 12811 multiletter control sequences out of 15000+600000
+ 9535 strings out of 493315
+ 137721 string characters out of 6137904
+ 345197 words of memory out of 5000000
+ 12807 multiletter control sequences out of 15000+600000
  15038 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,16n,38p,1006b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,16n,38p,944b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -725,10 +722,10 @@ ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (8 pages, 1443821 bytes).
+Output written on main.pdf (8 pages, 25404227 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2684 PDF objects out of 2984 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -45,10 +45,10 @@
 
 \preprint{APS/123-QED}
 
-\title{Something about quantum discord}% Force line breaks with \\
+\title{Protection of quantum correlation using weak measurement \\ and quantum measurement reversal}% Force line breaks with \\
 %\thanks{A footnote to the article title}%
 
-\author{The list of authors}
+\author{Jiwon Yune, Kang-Hee Hong, Hyang-Tag Lim, Yong-Su Kim, Yoon-Ho Kim}
 %\altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
 %\author{Second Author}%
 %\email{Second.Author@institution.edu}
@@ -80,7 +80,6 @@
              %  but any date may be explicitly specified
 
 \begin{abstract}
-Something about quantum discord: abstract goes here.
 %\begin{description}
 %\item[Usage]
 %Secondary publications and information retrieval purposes.
@@ -90,6 +89,7 @@ Something about quantum discord: abstract goes here.
 %You may use the \texttt{description} environment to structure your abstract;
 %use the optional argument of the \verb+\item+ command to give the category of each item. 
 %\end{description}
+Quantum correlation, such as entanglement or nonlocality, is an essential resource for various quantum information applications, and quantum discord is a mathematical standard for quantifying the amount of quantum correlation. We closely examine the concept of quantum discord and how to numerically compute it. Moreover, we extend the work to study a quantum communication protocol for two parties under the influence of amplitude decoherence and show how to enhance the quality of quantum resource by the sequential operation of weak measurement and quantum measurement reversal.
 \end{abstract}
 
 %\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
@@ -101,10 +101,12 @@ Something about quantum discord: abstract goes here.
 %\tableofcontents
 
 \section{Introduction}
-\noindent \lipsum[1-2]
+\noindent Quantum correlation is an essential resource for various quantum information applications, for instance, quantum computation, quantum communication, quantum cryptography, and quantum teleportation. Quantum information provides several ways to define the amount of correlation between two parties or among multiple parties. Theoretically and experimentally, of particular interest of correlation are concurrence and the Bell nonlocality. For a given density matrix of a mixed state of two qubits, concurrence gives the amount of an entanglement monotone, whereas the Bell nonlocality provides the measure of nonlocality. However, in spite of their usefulness, those definitions do not provide the most general measure of the amount of correlation in quantum systems. Olliver \textit{et al.} approached this issue from the perspective of information science and proposed the theory of quantum discord in 2001.
+
+With the concept of quantum discord, we revisited the work of Kim \textit{et al.}, which carefully studied the method of reviving the amount of concurrence between two communication parties. The experiment utilized quantum weak measurement and quantum measurement reversal to strengthen and, for certain cases, resurrect the quantity of entanglement of two photons that are under the influence of amplitude decoherence. In this paper, we discuss the idea of quantum discord and use it to provide an alternative perspective of how two communication parties can share quantum resources via quantum channels. 
 
 \section{Quantum discord: the definition}
-\noindent Quantum information provides several ways to define an amount of correlation between two parties or among multiple parties. Theoretically and experimentally, of particular interest of correlation are concurrence and the Bell nonlocality. For a given density matrix of a mixed state of two qubits, concurrence gives the amount of an entanglement monotone, whereas the Bell nonlocality provides the measure of nonlocality. However, in spite of their usefulness, those definitions do not provide the most general measure of the amount of correlation in quantum systems. Olliver \textit{et al.} approached this issue from the perspective of information science and proposed the theory of quantum discord in 2001. There exist variant versions of quantum discord, which will be introduced and discussed in the following subsections, but the central idea is shared by every version of quantum discord: purely extract the quantumness of correlations for a given density matrix. 
+\noindent There exist variant versions of quantum discord, which will be introduced and discussed in the following subsections, but the central idea is shared by every version of quantum discord: purely extract the quantumness of correlations for a given density matrix. 
 
 \begin{figure}
         \centering
@@ -142,13 +144,13 @@ S(\boldsymbol{\rho}) = -tr(\boldsymbol{\rho} \  log_b \boldsymbol{\rho}) \text{.
 \begin{equation}
 \textit{I}(\boldsymbol{\rho}_{AB}) = S(\boldsymbol{\rho}_A) + S(\boldsymbol{\rho}_B) - S(\boldsymbol{\rho}_{AB}) \label{quan.cor.} \text{,}
 \end{equation}
-\noindent where $\boldsymbol{\rho}_A$ ($\boldsymbol{\rho}_B$) can be deduced by the partial trace $tr_{B(A)} \  \boldsymbol{\rho}_{AB}$. However, this definition of mutual information embraces both the quantum mutual information and the classical mutual information. In order to get purely the quantumness of the correlation, namely quantum discord $\textit{D}(\boldsymbol{\rho}_{AB})$, one must need to deduct the classical measure of correlation $\textit{C}(\boldsymbol{\rho}_{AB})$ from the mutual quantum information $\textit{I}(\boldsymbol{\rho}_{AB})$:
+\noindent where $\boldsymbol{\rho}_A$ ($\boldsymbol{\rho}_B$) can be deduced by the partial trace $tr_{B(A)} \  \boldsymbol{\rho}_{AB}$. In order to get purely the quantumness of the correlation, namely quantum discord $\textit{D}(\boldsymbol{\rho}_{AB})$, one must need to deduct the measure of correlation in the classical limit $\textit{J}(\boldsymbol{\rho}_{AB})$ from the mutual quantum information $\textit{I}(\boldsymbol{\rho}_{AB})$:
 \begin{equation}
-\textit{D}(\boldsymbol{\rho}_{AB}) = \textit{I}(\boldsymbol{\rho}_{AB}) - \textit{C}(\boldsymbol{\rho}_{AB}) \text{.}
+\textit{D}(\boldsymbol{\rho}_{AB}) = \textit{I}(\boldsymbol{\rho}_{AB}) - \textit{J}(\boldsymbol{\rho}_{AB}) \text{.}
 \end{equation}
-\noindent The measure of classical correlation $\textit{C}(\boldsymbol{\rho}_{AB})$ is given by
+\noindent The measure of correlation in the classical limit $\textit{J}(\boldsymbol{\rho}_{AB})$ is given by
 \begin{equation}
-\textit{C}(\boldsymbol{\rho}_{AB}) = \underset{\{B_k\}}{\text{sup}}\ \textit{I}(\boldsymbol{\rho}_{AB}|\{B_k\}) \label{clas.cor.} \text{,}
+\textit{J}(\boldsymbol{\rho}_{AB}) = \underset{\{B_k\}}{\text{sup}}\ \textit{I}(\boldsymbol{\rho}_{AB}|\{B_k\}) \label{clas.cor.} \text{,}
 \end{equation}
 \noindent where $\{B_k\}$ is a measurement performed locally on the system $B$. It is noteworthy that quantum discord is not generally symmetric under the exchange of the local system measurements. For instance, we can perform a set of measurements $\{A_k\}$, instead of $\{B_k\}$, and still have a equally valid measure of quantum discord. Note that Wu \textit{et al.} introduced \textit{symmetric discord} to ensure the symmetry. Nonetheless, this report follows the traditional definition of quantum discord, because the scope of interest generally considers the environment that has symmetric effects on the systems $A$ and $B$. An extensive discussion on how to perform the search algorithm for finding quantum discord is covered in the later section.
 
@@ -174,7 +176,7 @@ A extensive discussion on deriving zero quantum discord states and finding the i
 
 The estimation of entropic quantum discord consists of two parts. One part is to calculate $\textit{I}(\boldsymbol{\rho}_{AB})$ (eq. $\ref{quan.cor.}$), and it is fairly trivial. Note that $\boldsymbol{\rho}_{AB}$ is in the basis of $|i\rangle \otimes |j\rangle$ or $|ij\rangle$, where $i, j \in \{0, 1\}$. The other part is to find the supremum of the functional $\textit{I}(\boldsymbol{\rho}_{AB}|\{B_k\})$ (eq. $\ref{clas.cor.}$). Eq. $\ref{clas.cor.}$ can be expanded to a more explicit form, 
 \begin{equation}
-\textit{C}(\boldsymbol{\rho}_{AB}) = \underset{\{B_k\}}{\text{sup}} (S(\boldsymbol{\rho}_A) - S(\boldsymbol{\rho}_{AB}|\{B_k\})) \text{.}
+\textit{J}(\boldsymbol{\rho}_{AB}) = \underset{\{B_k\}}{\text{sup}} (S(\boldsymbol{\rho}_A) - S(\boldsymbol{\rho}_{AB}|\{B_k\})) \text{.}
 \end{equation}
 \noindent The second term in the equation is what requires a numerical approach. Let us define the second term as a function, 
 \begin{equation}
@@ -224,11 +226,11 @@ cos \theta
 0 & 1 \\
 1 & 0
 \end{array} \right) \text{, }
-\boldsymbol{\sigma}_1 = \left( \begin{array}{cc}
+\boldsymbol{\sigma}_2 = \left( \begin{array}{cc}
 0 & -i \\
 i & 0
 \end{array} \right) \text{, }
-\boldsymbol{\sigma}_1 = \left( \begin{array}{cc}
+\boldsymbol{\sigma}_3 = \left( \begin{array}{cc}
 1 & 0 \\
 0 & -1
 \end{array} \right) \text{. }
@@ -238,7 +240,7 @@ Using the above relations, we can deduce $\boldsymbol{\rho}_{AB}$ for a given se
 \begin{equation}
 \boldsymbol{\rho}_{AB|\{B_k\}} = \sum_{i \in \{0, 1\}} \frac{1}{p_i} (\textbf{I} \otimes \boldsymbol{B}_k^i) \boldsymbol{\rho}_{AB} (\textbf{I} \otimes \boldsymbol{B}_k^i) \text{,}
 \end{equation}
-\noindent where $p_i$ is given by $p_i = tr \{ (\textbf{I} \otimes \boldsymbol{B}_k^i) \boldsymbol{\rho}_{AB} (\textbf{I} \otimes \boldsymbol{B}_k^i) \}$. It is now obvious that the functional $\textit{S}(\boldsymbol{\rho}_AB|\{B_k\})$ of eq. $\ref{func.}$ is a function of $\theta$ and $\phi$, and we can numerically estimate the extremum by simply searching over the spherical space, $0 \le \theta \le \pi$ and $0 \le \phi \le 2\pi$.
+\noindent where $p_i$ is given by $p_i = tr \{ (\textbf{I} \otimes \boldsymbol{B}_k^i) \boldsymbol{\rho}_{AB} (\textbf{I} \otimes \boldsymbol{B}_k^i) \}$. It is now obvious that the functional $\textit{S}(\boldsymbol{\rho}_{AB}|\{B_k\})$ of eq. $\ref{func.}$ is a function of $\theta$ and $\phi$, and we can numerically estimate the extremum by simply searching over the spherical space, $0 \le \theta \le \pi$ and $0 \le \phi \le 2\pi$.
 
 Geometric quantum discord can be calculated in a similar manner. First, one needs to define an abtitrary zero quantum discord state for a given joint density matrix $\boldsymbol{\rho}_{AB}$. For this, let us define the reduced density matrix $\boldsymbol{\rho}_B$ given the measurement $|i\rangle$ of $A$, $i \in \{0, 1\}$, i.e. $\boldsymbol{\rho}_{B||0\rangle_A}$ and $\boldsymbol{\rho}_{B||1\rangle_A}$,
 \begin{eqnarray}
@@ -283,7 +285,7 @@ $\boldsymbol{\rho}_x =$
                 \caption{}
                 \label{fig:w}
         \end{subfigure}
-        \caption{Scheme for protecting quantum correlation from decoherence using weak measurement and quantum measurement reversl, reprinted from Kim \textit{et al.}; a) Decoherence $D_1$ and $D_2$ in the quantum channels weaken the correlation of the joint quantum state $\rho_d$ between Bob and Charlie. b) such weakening can be reversed by sequential operations of weak measurement ($M_{wk}$) by Alice and reversing measurement ($M_{rev}$) by Bob and Charlie.}\label{fig:scheme}
+        \caption{Scheme for protecting quantum correlation from decoherence using weak measurement and quantum measurement reversl; a) Decoherence $D_1$ and $D_2$ in the quantum channels weaken the correlation of the joint quantum state $\rho_d$ between Bob and Charlie. b) Such weakening can be reversed by sequential operations of weak measurement ($M_{wk}$) by Alice and reversing measurement ($M_{rev}$) by Bob and Charlie.}\label{fig:scheme}
 \end{figure}
 
 Although this brutal approach works fine, the optimization may be necessary for special cases. It is relatively easy to calculate the quantum discord of a two-qubit mixed state, but for qudits of $d>2$, search might take a very long time. As shown in fig. $\ref{fig:ex.s}$, one might encounter multiple local minima for a given arbitrary density matrix. Though we cannot yet rigorously prove which method of numerical estimation is the best way to deduce the quantum discord of an arbitrary quantum system, a number of numerical evaluations led us to the conclusion that the Monte Carlo sampling is sufficient for estimating the measure. Because it may be useful for calculating the quantum discord for a multi-qudit system, the general recipe is briefly discussed in the following.
@@ -310,12 +312,6 @@ iii) $(d-1)$ diagonal Gell-Mann matrices
 \vec{b} = \sqrt{\frac{r}{|\nu|^2}}(\{\nu_1, \nu_2, ..., \nu_{d^2-1}\}) \text{.}
 \end{equation}
 \noindent By having $r$, we can cover all the possible Bloch vector, $|\vec{b}| \le 1$. Note that these randomly chosen density matrices must have physical values, i.e. they must be Hermiticitian or positive semidefinite. For instance, there is a possibility that diagonal terms of $\textbf{V}$ can be negative, if we carelessly applied the construction described above. One must be careful and eliminate such cases for calculation. The estimation method of the Monte Carlo sampling is tested under various cases, including two-qubit, two-qutrit cases, and more. Using this very method with a sufficiently large number of sampling can provide you a good estimation of quantum discord pretty quickly. The plots and figures are generated with all the methods described in this section, including the Monte Carlo sampling. 
-
-\begin{figure}
-        \centering
-        \includegraphics[width=0.49\textwidth]{setup}
-        \caption{Schematic of the experiment, reprinted from Kim \textit{et al.}; The initial two-qubit state $|\Phi\rangle$ is prepared with the two-photon polarization state. $M_{wk}$ and $M_{rev}$ are performed with Brewster-angle glass plates (BPs) and half-wave plates (HWPs), respectively. We use an interferometer to simulate amplitude-damping decoherence.}\label{fig:setup}
-\end{figure}
 
 \section{Experiment}
 \noindent The system of interest is a two-level system ($S$) whose computational bases are $\{|i\rangle_S\}$, where $i \in \{0,1\}$. Like any other quantum systems, this system also suffers from probabilistic and irreversible environmental decoherence or, for this particular model, amplitude-damping decoherence. We can model state-dependent coupling of the system S to the environment ($E$),
@@ -372,7 +368,7 @@ M_{rev}(p_{r_1}, p_{r_2}) &= \left( \begin{array}{cc}
 \end{align*}
 \noindent where $\textit{A} = 1+\{\bar{p}_1 D_1(1+\bar{p}_2 D_2)+\bar{p}_2 D_2\} |\beta|^2$ and $\bar{p}_i=1-p_i$.
 
-The experimental setup is schematically shown in fig. $\ref{fig:setup}$, and you can find details in the section Methods of Kim $\textit{et al.}$ Note that, for the experimental demonstration, $D_1=D_2=D$ and $p_1=p_2=p$ are used, and the qubits are realized with the single-photon polarization state, where $|0\rangle$ and $|1\rangle$ are the horizontal and vertical polarizations, respectively.
+The experimental setup is schematically shown in fig. 3 of Kim \textit{et al.}, and you can find details in the section Methods of the same report. Note that, for the experimental demonstration, $D_1=D_2=D$ and $p_1=p_2=p$ are used, and the qubits are realized with the single-photon polarization state, where $|0\rangle$ and $|1\rangle$ are the horizontal and vertical polarizations, respectively.
 
 \begin{figure}
         \centering
@@ -387,7 +383,7 @@ The experimental setup is schematically shown in fig. $\ref{fig:setup}$, and you
                 \caption{}
                 \label{fig:concw}
         \end{subfigure}
-        \caption{Experimental data fitted to concurrence, reprinted from Kim \textit{et al.}; a) As D increases, the concurrence of $\boldsymbol{\rho}_d$ gradually decreases. b) Even under the influence of strong decoherence ($D=0.6$), we can revive the concurrence of $\boldsymbol{\rho}_r$ by $M_{wk}(p)$ and the corresponding optimal $M_{rev}(p_r)$.}\label{fig:conc}
+        \caption{Experimental data fitted to concurrence; a) As D increases, the concurrence of $\boldsymbol{\rho}_d$ gradually decreases. b) Even under the influence of strong decoherence ($D=0.6$), we can revive the concurrence of $\boldsymbol{\rho}_r$ by $M_{wk}(p)$ and the corresponding optimal $M_{rev}(p_r)$.}\label{fig:conc}
 \end{figure}
 
 \subsection{A brief discussion of the concurrence result}
@@ -395,9 +391,7 @@ The experimental setup is schematically shown in fig. $\ref{fig:setup}$, and you
 \begin{equation}
 \textit{C}(\boldsymbol{\rho}) = \text{max}(0, \lambda_1-\lambda_2-\lambda_3-\lambda_4) \text{.}
 \end{equation}
-\noindent $\lambda_1$, ..., $\lambda_4$ are the eigenvalues, in decreasing order, of the Hermitian matrix $R=\sqrt{\sqrt{\boldsymbol{\rho}}\tilde{\boldsymbol{\rho}}\sqrt{\boldsymbol{\rho}}}$, where $\tilde{\boldsymbol{\rho}} = (\sigma_2 \otimes \sigma_2)\boldsymbol{\rho}^* (\sigma_2 \otimes \sigma_2)$. The previous experiment presented in Kim \textit{et al.} was originally conducted to study the influence of decoherence and the effect of weak and reversing measurements on the concurrence. The result is reprinted from Kim \textit{et al.} and shown in fig. \ref{fig:conc}.
-
-% Discuss the result briefly.
+\noindent $\lambda_1$, ..., $\lambda_4$ are the eigenvalues, in decreasing order, of the Hermitian matrix $R=\sqrt{\sqrt{\boldsymbol{\rho}}\tilde{\boldsymbol{\rho}}\sqrt{\boldsymbol{\rho}}}$, where $\tilde{\boldsymbol{\rho}} = (\sigma_2 \otimes \sigma_2)\boldsymbol{\rho}^* (\sigma_2 \otimes \sigma_2)$. The previous experiment presented in Kim \textit{et al.} was originally conducted to study the influence of decoherence and the effect of weak and reversing measurements on the concurrence. The result is adapted from Kim \textit{et al.} and shown in fig. \ref{fig:conc}.
 
 \subsection{Theoretical estimation of quantum discord under the same scenario}
 \noindent In comparison with the original expriment by Kim \textit{et al.}, we examine how entropic discord ($\textit{D}(\boldsymbol{\rho})$) and geometric discord ($\textit{D}_G(\boldsymbol{\rho})$) behave under different decoherence, weak measurement, and the corresponding oprimal reversing measurement. In figs. $\ref{fig:A5}$ and $\ref{fig:A5G}$, we simulate the quantum discords for two particular initial states ($|\alpha|=|\beta|$ and $|\alpha|=0.42<|\beta|$). Similarly to the concurrence in fig. 4 of Kim $\textit{et al.}$, the plots clearly show that decoherence affects the two qubits independently, and their correlations can be circumvented by exploiting weak measurement and quantum measurement reversal. However, it is noteworthy that, for quantum discord, decoherence does not cause sudden death of correlation, unlike entanglement sudden death (ESD) for the concurrence case.
@@ -468,7 +462,7 @@ The experimental setup is schematically shown in fig. $\ref{fig:setup}$, and you
                 \caption{}
                 \label{fig:Dp}
         \end{subfigure}
-        \caption{Something.}\label{fig:D}
+        \caption{Experimental data for protecting quantum correlation from decoherence using quantum weak measurement and quantum measurement reversal, quantized with entropic quantum discord; a) As $D$ increases, the amount of quantum correlation gradually decreases. b) Even under the effect of strong decoherence ($D=0.6$), we can reverse the amount of quantum correlation between Bob and Charlie by performing $M_{wk}(p)$ and $M_{rev}(p) $. The error bars represent the statistical error of $\pm 1$ standard deviation, and the dashed lines represent the corresponding concurrence plots.}\label{fig:D}
 \end{figure}
 
 \begin{figure}
@@ -484,10 +478,10 @@ The experimental setup is schematically shown in fig. $\ref{fig:setup}$, and you
                 \caption{}
                 \label{fig:DGp}
         \end{subfigure}
-        \caption{Something.}\label{fig:DG}
+        \caption{Experimental data for protecting quantum correlation from amplitude decoherence using quantum weak measurement and quantum measurement reversal, quantized with geometric quantum discord; the descriptions for a) and b) are equivalent to those of \\ fig. \ref{fig:D}.}\label{fig:DG}
 \end{figure}
 
-\noindent Experimentally, we first demonstrate the effect of decoherence $D$ on the initial two qubit mixed state $|\Phi\rangle = \alpha |00\rangle_S + \beta |11\rangle_S$. The measurement is performed with the setup described in fig. $\ref{fig:setup}$, and its two-qubit state $\boldsymbol{\rho}_d$ is recontructed with quantum state tomography. For the given $\boldsymbol{\rho}_d$, both entropic and geometric discord are evaluated. As shown in figs. $\ref{fig:DD}$ and $\ref{fig:DGD}$, we take data points for three input state conditions ($|\alpha|=|\beta|$, $|\alpha|<|\beta|$, and $|\alpha|>|\beta$) as a function of decoherence $D$.
+\noindent Experimentally, we first demonstrate the effect of decoherence $D$ on the initial two qubit mixed state $|\Phi\rangle = \alpha |00\rangle_S + \beta |11\rangle_S$. The measurement is performed with the setup described in Kim \textit{et al.}, and its two-qubit state $\boldsymbol{\rho}_d$ is recontructed with quantum state tomography. For the given $\boldsymbol{\rho}_d$, both entropic and geometric discord are evaluated. As shown in figs. $\ref{fig:DD}$ and $\ref{fig:DGD}$, we take data points for three input state conditions ($|\alpha|=|\beta|$, $|\alpha|<|\beta|$, and $|\alpha|>|\beta$) as a function of decoherence $D$.
 
 As observed in the figures, unless the strength of decoherence is at its maximum, i.e. $D=1$, both the entropic and geometric discords between Bob and Charlie do not disappear. This is the most notable difference between quantum discord and concurrence. 
 
